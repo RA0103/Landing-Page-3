@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+    background-color: white;
+}
+.mrit {
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.dot {
+    color: orangered;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.navbar ul li {
+    margin-right: 30px;
+    display: inline;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+.cart {
+    margin-right: 30px;
+}
+i {
+    margin-right: 5px;
+}
+.main img {
+    width: 1400px;
+    height: 600px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.text {
+    margin: 0 200px;
+}
+.beach {
+    text-transform: uppercase;
+    z-index: 1;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 200px;
+    color: #fff;
+}
+.dare {
+    margin-top: 60px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.you {
+    margin-top: 5px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.twe {
+    margin-top: 60px;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.did {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.from {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.input-text {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.input {
+    display: flex;
+    margin-right: 80px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+select {
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.book {
+    border: 1px solid #FF7757;
+    padding: 30px;
+    background-color: #FF7757;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: -10px;
+}
+.now {
+    position: relative;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid gray;   
+}
+.trip {
+    margin: 0 0 0 20px;
+}
+.planner {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.plan {
+    margin-top: 10px;
+    width: 360px;
+    color: gray;
+}
+.cub {
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 70px;
+    height: 50px;
+    background-color: black;
+    z-index: -1;
+}
+.all {
+    position: absolute;
+    padding: 15px;
+    top: 10px;
+    left: 30px;
+    border: 1px solid #FF7757;
+    width: 150px;
+    background-color: #FF7757;
+    z-index: 1;
+}
+.img {
+    margin-left: 470px;
+    margin-top: -180px;
+}
+img {
+    margin-left: 10px;
+}
+.seoul {
+    height: 200px;
+    width: 200px;
+}
+.tour {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+.moscow {
+    height: 200px;
+    width: 200px;
+}
+.shanxai {
+    width: 200px;
+    height: 200px;
+}
+.guide {
+    position: absolute;
+    top: 870px;
+    right: 430px;
+    width: 200px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.tu {
+    display: flex;
+    justify-content: space-between;
+}
+.york {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.star {
+    display: flex;
+    justify-content: space-between;
+}
+.star #star{
+    color: #FF7757;
+}
+#half-star {
+    color: #FF7757;
+}
+.footer{
+    margin: 0 20px;
+}
+h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+h3 {
+    margin-bottom: 40px;
+}
+.hamburger {
+    display: none;
+}
+@media (max-width:700px) {
+    .mrit {
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .navbar ul li a {
+        font-size: 10px;
+    }
+    .main img {
+        height: 250px;
+    }
+    .hamburger .menu .icon {
+        display: inline;
+    }
+    .cart {
+        font-size: 10px;
+    }
+    .beach {
+        font-size: 10px;
+
+    }
+    .dare {
+        font-size: 15px;
+    }
+    .you {
+        font-size: 15px;
+    }
+    .twe {
+        font-size: 10px;
+    }
+    .did {
+        font-size: 10px;
+    }
+    .from {
+        font-size: 10px;
+        margin-top: -1600px;
+    }
+    .now {
+        margin-top: 120px;
+        padding: 0;
+    }
+    .input-text {
+        font-size: 10px;
+    }
+    select {
+        font-size: 12px;
+    }
+    .book {
+        position: absolute;
+        top: 20px;
+        padding: 10px;
+        right: 0px;
+        padding: 10px;
+    }
+    .seoul, .tour{
+        height: 100px;
+        width: 100px;
+        margin: 0;
+    }
+    .moscow, .shanxai {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .guide {
+        display: none;
+    }
+    br {
+        display: none;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+}
+@media (max-width:500px) {
+    .navbar ul, li, a{
+        display: none;
+    }
+    .mrit, .cart {
+        font-size: 10px;
+    }
+    .hamburger .menu .icon {
+        display: inline;
+        justify-content: center;
+    }
+    .main img {
+        display: none;
+    }
+    .text {
+        display: none;
+    }
+    .now {
+        width: 590px;
+    }
+    .input {
+        margin-top: 10px;
+    }
+    .input-text {
+        margin-top: 0px;
+    }
+    select {
+        font-size: 10px;
+    }
+    .book {
+        position: absolute;
+        top: 5px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .cub {
+        width: 20px;
+        height: 20px;
+    }
+    .all {
+        position: absolute;
+        top: 0;
+        padding: 15px;
+        left: 10px;
+        padding: 0;
+        font-size: 10px;
+        width: 80px;
+    }
+    .planner {
+        font-size: 20px;
+    }
+    .plan {
+        width: 100px;
+        font-size: 7px;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 5px;
+    }
+    .img {
+        display: none;
+    }
+}
